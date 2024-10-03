@@ -112,10 +112,17 @@ footer li {
   margin-bottom: 78px;
 }
 
-footer div {
+.footer-div {
   display: inline-block;
   margin-left: 50px;
 }
+
+.container {
+  max-width: 1640px;
+  width: 96%;
+  margin: 0 auto;
+}
+
 .mini_logos li {
   display: inline-block;
   margin-left: 20px;
