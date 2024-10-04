@@ -17,6 +17,24 @@ img {
   max-width: 100%;
 }
 
+@font-face {
+  font-family: "Zapf Dingbats";
+  src: url("../fonts/ZapfDingbats.woff2") format("woff2"),
+    url("../fonts/ZapfDingbats.woff") format("woff"),
+    url("../fonts/ZapfDingbats.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font_1 {
+  font-family: "ArchyEDT-Bold";
+}
+
+.font_2 {
+  font-family: "Zapf Dingbats";
+}
+
 section {
   margin-top: 60px;
   margin-bottom: 140px;
@@ -90,6 +108,8 @@ article > a {
   font-size: 30px;
   margin-top: 56px;
   margin-bottom: 53px;
+  display: block;
+  text-align: center;
 }
 
 footer {
